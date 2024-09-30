@@ -13,4 +13,7 @@ This is a simple yet dynamic Todo application built with **React.js** and **Redu
 - **Redux** for state management
 - **CSS** for custom styling
 
+## Demo:
+- You can see the demo here https://todo-app-react-redux-toolkit.netlify.app/
+
  
