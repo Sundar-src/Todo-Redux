@@ -1,0 +1,77 @@
+.todos-container {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.todos-container:hover {
+  transform: translateY(-5px);
+}
+
+.todos-title {
+  text-align: center;
+  font-size: 28px;
+  color: #343a40;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.todos-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  margin: 8px auto;
+  border-radius: 50px;
+}
+
+.todos-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border-left: 5px solid #6a11cb;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.todo-text {
+  font-size: 18px;
+  color: #495057;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(220, 53, 69, 0.4);
+}
