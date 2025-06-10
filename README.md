@@ -16,4 +16,7 @@ This is a simple yet dynamic Todo application built with **React.js** and **Redu
 ## Demo:
 - You can see the demo here https://todo-app-react-redux-toolkit.netlify.app/
 
+## 📷 Preview:
+![Card Slider Preview](./screenshot.png)
+
  
